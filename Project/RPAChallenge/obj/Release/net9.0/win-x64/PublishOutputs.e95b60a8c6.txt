@@ -1,0 +1,5 @@
+C:\Projetos Pessoais\RPAChallenge\RPAChallenge\bin\Release\net9.0\win-x64\publish\RPAChallenge.pdb
+C:\Projetos Pessoais\RPAChallenge\RPAChallenge\bin\Release\net9.0\win-x64\publish\selenium-manager\linux\selenium-manager
+C:\Projetos Pessoais\RPAChallenge\RPAChallenge\bin\Release\net9.0\win-x64\publish\selenium-manager\macos\selenium-manager
+C:\Projetos Pessoais\RPAChallenge\RPAChallenge\bin\Release\net9.0\win-x64\publish\selenium-manager\windows\selenium-manager.exe
+C:\Projetos Pessoais\RPAChallenge\RPAChallenge\bin\Release\net9.0\win-x64\publish\RPAChallenge.exe
