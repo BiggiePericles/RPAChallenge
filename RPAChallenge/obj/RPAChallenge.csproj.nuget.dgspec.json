@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos Pessoais\\RPAChallenge\\RPAChallenge\\RPAChallenge.csproj": {}
+    "c:\\Projetos Pessoais\\RPAChallenge\\RPAChallenge\\RPAChallenge.csproj": {}
   },
   "projects": {
-    "C:\\Projetos Pessoais\\RPAChallenge\\RPAChallenge\\RPAChallenge.csproj": {
+    "c:\\Projetos Pessoais\\RPAChallenge\\RPAChallenge\\RPAChallenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos Pessoais\\RPAChallenge\\RPAChallenge\\RPAChallenge.csproj",
+        "projectUniqueName": "c:\\Projetos Pessoais\\RPAChallenge\\RPAChallenge\\RPAChallenge.csproj",
         "projectName": "RPAChallenge",
-        "projectPath": "C:\\Projetos Pessoais\\RPAChallenge\\RPAChallenge\\RPAChallenge.csproj",
+        "projectPath": "c:\\Projetos Pessoais\\RPAChallenge\\RPAChallenge\\RPAChallenge.csproj",
         "packagesPath": "C:\\Users\\leolo\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos Pessoais\\RPAChallenge\\RPAChallenge\\obj\\",
+        "outputPath": "c:\\Projetos Pessoais\\RPAChallenge\\RPAChallenge\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leolo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -52,12 +52,6 @@
               "target": "Package",
               "version": "[3.11.0, )"
             },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.7, )",
-              "autoReferenced": true
-            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.34.0, )"
@@ -74,31 +68,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[9.0.7, 9.0.7]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[9.0.7, 9.0.7]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[9.0.7, 9.0.7]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     }

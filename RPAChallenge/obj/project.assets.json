@@ -92,168 +92,6 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.7": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "RBush.Signed/4.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/RBush.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/RBush.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Selenium.WebDriver/4.34.0": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/WebDriver.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/WebDriver.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/Selenium.WebDriver.targets": {}
-        }
-      },
-      "SixLabors.Fonts/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.IO.Packaging/8.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/System.IO.Packaging.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/System.IO.Packaging.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      }
-    },
-    "net9.0/win-x64": {
-      "ClosedXML/0.105.0": {
-        "type": "package",
-        "dependencies": {
-          "ClosedXML.Parser": "2.0.0",
-          "DocumentFormat.OpenXml": "[3.1.1, 4.0.0)",
-          "ExcelNumberFormat": "1.1.0",
-          "RBush.Signed": "4.0.0",
-          "SixLabors.Fonts": "1.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/ClosedXML.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.1/ClosedXML.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "ClosedXML.Parser/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.1/ClosedXML.Parser.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.1/ClosedXML.Parser.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "DocumentFormat.OpenXml/3.1.1": {
-        "type": "package",
-        "dependencies": {
-          "DocumentFormat.OpenXml.Framework": "3.1.1"
-        },
-        "compile": {
-          "lib/net8.0/DocumentFormat.OpenXml.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/DocumentFormat.OpenXml.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "DocumentFormat.OpenXml.Framework/3.1.1": {
-        "type": "package",
-        "dependencies": {
-          "System.IO.Packaging": "8.0.1"
-        },
-        "compile": {
-          "lib/net8.0/DocumentFormat.OpenXml.Framework.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/DocumentFormat.OpenXml.Framework.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
-        "type": "package",
-        "dependencies": {
-          "Selenium.WebDriver": "3.10.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {}
-        }
-      },
-      "ExcelNumberFormat/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/ExcelNumberFormat.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/ExcelNumberFormat.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.NET.ILLink.Tasks/9.0.7": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
       "RBush.Signed/4.0.0": {
         "type": "package",
         "compile": {
@@ -430,57 +268,6 @@
         "lib/netstandard2.0/ExcelNumberFormat.xml"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.7": {
-      "sha512": "SZ1brSGoLnhLbE8QUZrtN6YwzN2gDT1wbx9qDBEfFFJcstiDTjJ6ygNuTPBV/K7SjGfx2YNbcJi5+ygbPOZpDg==",
-      "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.7",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "Sdk/Sdk.props",
-        "THIRD-PARTY-NOTICES.TXT",
-        "analyzers/dotnet/cs/ILLink.CodeFixProvider.dll",
-        "analyzers/dotnet/cs/ILLink.RoslynAnalyzer.dll",
-        "build/Microsoft.NET.ILLink.Analyzers.props",
-        "build/Microsoft.NET.ILLink.Tasks.props",
-        "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.7.nupkg.sha512",
-        "microsoft.net.illink.tasks.nuspec",
-        "tools/net472/ILLink.Tasks.dll",
-        "tools/net472/ILLink.Tasks.dll.config",
-        "tools/net472/Mono.Cecil.Mdb.dll",
-        "tools/net472/Mono.Cecil.Pdb.dll",
-        "tools/net472/Mono.Cecil.Rocks.dll",
-        "tools/net472/Mono.Cecil.dll",
-        "tools/net472/Sdk/Sdk.props",
-        "tools/net472/System.Buffers.dll",
-        "tools/net472/System.Collections.Immutable.dll",
-        "tools/net472/System.Memory.dll",
-        "tools/net472/System.Numerics.Vectors.dll",
-        "tools/net472/System.Reflection.Metadata.dll",
-        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
-        "tools/net472/build/Microsoft.NET.ILLink.Analyzers.props",
-        "tools/net472/build/Microsoft.NET.ILLink.Tasks.props",
-        "tools/net472/build/Microsoft.NET.ILLink.targets",
-        "tools/net9.0/ILLink.Tasks.deps.json",
-        "tools/net9.0/ILLink.Tasks.dll",
-        "tools/net9.0/Mono.Cecil.Mdb.dll",
-        "tools/net9.0/Mono.Cecil.Pdb.dll",
-        "tools/net9.0/Mono.Cecil.Rocks.dll",
-        "tools/net9.0/Mono.Cecil.dll",
-        "tools/net9.0/Sdk/Sdk.props",
-        "tools/net9.0/build/Microsoft.NET.ILLink.Analyzers.props",
-        "tools/net9.0/build/Microsoft.NET.ILLink.Tasks.props",
-        "tools/net9.0/build/Microsoft.NET.ILLink.targets",
-        "tools/net9.0/illink.deps.json",
-        "tools/net9.0/illink.dll",
-        "tools/net9.0/illink.runtimeconfig.json",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "RBush.Signed/4.0.0": {
       "sha512": "aP5KQxL5RnFNGW1f0euYVBfCatkLw5iEzMRJcXKq8LWWP4Cp3+qoSq1tDDL2vvJ2rM0ychmVMa2VaEKLS6uX4w==",
       "type": "package",
@@ -573,7 +360,6 @@
     "net9.0": [
       "ClosedXML >= 0.105.0",
       "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.7",
       "Selenium.WebDriver >= 4.34.0"
     ]
   },
@@ -628,12 +414,6 @@
             "target": "Package",
             "version": "[3.11.0, )"
           },
-          "Microsoft.NET.ILLink.Tasks": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[9.0.7, )",
-            "autoReferenced": true
-          },
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[4.34.0, )"
@@ -650,31 +430,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[9.0.7, 9.0.7]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[9.0.7, 9.0.7]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[9.0.7, 9.0.7]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win-x64": {
-        "#import": []
       }
     }
   }

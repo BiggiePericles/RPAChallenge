@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPAChallenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8eff2a2a98c5b6185433391af3755cc63563f826")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97541d0cc33072651840012220606d6449e4678e")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPAChallenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPAChallenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
